@@ -3202,6 +3202,12 @@ config MACH_MEC_WHL
         help
           Support for HTC MSM8974 MEC_WHL
 
+config MACH_B2_UL
+        depends on ARCH_MSM8974
+        bool "MSM8974 B2_UL"
+        help
+          Support for HTC MSM8974 B2_UL
+
 endif
 
 config PERFLOCK
